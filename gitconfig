@@ -1,0 +1,8 @@
+[user]
+	name	=	chitsutote
+	email	=	chitsutote7@gmail.com
+[alias]
+
+	lg=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+
+	st=status
