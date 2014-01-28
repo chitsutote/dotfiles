@@ -53,4 +53,19 @@ set	nu	"set line number
 
 set	autoindent  
 
+"----- hotkey config -----
+
+"Switch split window hotkey
+
+"Switch to below
+map	<c-j>	<c-w>j
+
+"Switch to above
+map	<c-k>	<c-w>k
+
+"Switch to left
+map	<c-h>	<c-w>h
+
+"Switch to right
+map	<c-l>	<c-w>l
 

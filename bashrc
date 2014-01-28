@@ -107,6 +107,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 
+#Set terminal 256 color
+export	TERM=xterm-256color
+
 #show git branch
 function git_branch {
 ref=$(git symbolic-ref HEAD 2> /dev/null) || return;
