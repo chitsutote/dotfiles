@@ -13,7 +13,7 @@ if !filereadable(vundle_readme)
 	silent	!mkdir	-p	~/.vim/bundle
 	silent	!git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
 	let	iCanHazVundle=0
-	endif
+endif
 
 "Brief Help
 " :BundleList          - list configured bundles
@@ -30,7 +30,7 @@ Bundle 'The-NERD-tree'
 "Bundle 'Lokaltog/vim-powerline'
 "Powerline Setting
 "set nocompatible
-set t_Co=256
+"set t_Co=256
 "set laststatus=2
 
 "General Setting
@@ -43,6 +43,7 @@ syntax on
 set tabstop=4	"Set tab width
 
 set hlsearch	"set highlight search
+set incsearch	"show result while typing searching keyword
 set ignorecase	"set search ingnore cases
 
 " cursor postion
