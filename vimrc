@@ -69,3 +69,5 @@ map	<c-h>	<c-w>h
 "Switch to right
 map	<c-l>	<c-w>l
 
+"Map F5 -> NERDTree
+nnoremap <silent> <F5> :NERDTree<CR>
