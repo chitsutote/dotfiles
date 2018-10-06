@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# set up pathname
 Home="/home/chitsutote"
 Destin="/home/chitsutote/Desktop/CloneRepo/dotfiles"
 
