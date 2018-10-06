@@ -2,8 +2,8 @@
 
 # set up pathname
 Home="/home/chitsutote"
-Destin="/home/chitsutote/Desktop/CloneRepo/dotfiles"
+Destin="/home/chitsutote/Desktop/cloneRepo/dotfiles"
 
 cp $Destin/vimrc $Home/.vimrc 
 cp $Destin/gitconfig $Home/.gitconfig 
-cp $Destin/bashrc $Home/.bashrc 
+cat $Destin/bashrc >> $Home/.bashrc 
