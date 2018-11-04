@@ -5,6 +5,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 "Check if vundle not exist then install
+" :PluginInstall
 let iCanHazVundle=1
 let vundle_readme=expand('~/.vim/bundle/vundle/README.md')
 if !filereadable(vundle_readme)
