@@ -50,7 +50,7 @@ set ignorecase	"set search ingnore cases
 " cursor postion
 set cursorline
 set ruler
-set	nu	"set line number
+set	relativenumber	"set relative line number
 
 set	autoindent  
 
