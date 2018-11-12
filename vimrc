@@ -50,7 +50,16 @@ set ignorecase	"set search ingnore cases
 " cursor postion
 set cursorline
 set ruler
-set	relativenumber	"set relative line number
+set	nu rnu	"set Hybrid line number
+
+" using absolute line number in insert mode
+" using hybrid line number in normal mode
+" how to disable it: :autocmd! numbertoggle
+augroup numbertoggle
+	autocmd!
+	autocmd BufEnter,FocusGained,InsertLeave * set rnu
+	autocmd BufLeave,FocusGained,InsertEnter * set nornu
+augroup END
 
 set	autoindent  
 
@@ -72,3 +81,5 @@ map	<c-l>	<c-w>l
 
 "Map F5 -> NERDTree
 nnoremap <silent> <F5> :NERDTree<CR>
+" Map F2 -> toggle line number
+nnoremap <silent> <F2> :set nu! <bar> :set rnu!<CR>
