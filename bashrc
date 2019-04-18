@@ -2,6 +2,11 @@
 #Set terminal 256 color
 export	TERM=xterm-256color
 
+# Git aliases
+alias gst='git status'
+alias grp='git remote update origin -p'
+alias gph='git push origin HEAD'
+
 #show git branch
 function git_branch {
 ref=$(git symbolic-ref HEAD 2> /dev/null) || return;
