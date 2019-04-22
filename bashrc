@@ -2,10 +2,14 @@
 #Set terminal 256 color
 export	TERM=xterm-256color
 
+# Tig aliases
+alias tis='tig status'
+
 # Git aliases
 alias gst='git status'
 alias grp='git remote update origin -p'
 alias gph='git push origin HEAD'
+alias gck='git checkout'
 
 #show git branch
 function git_branch {
