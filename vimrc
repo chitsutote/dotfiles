@@ -41,7 +41,7 @@ set t_Co=256
 
 syntax on 
 
-set tabstop=4	"Set tab width
+set tabstop=2	"Set tab width
 
 set hlsearch	"set highlight search
 set incsearch	"show result while typing searching keyword
