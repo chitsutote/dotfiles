@@ -1,3 +1,6 @@
+# set visual editor to vim
+# we can use c-x c-e to edit bash command in text editor
+export VISUAL=vim
 
 #Set terminal 256 color
 export	TERM=xterm-256color
