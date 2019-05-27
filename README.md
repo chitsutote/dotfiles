@@ -9,7 +9,19 @@
 ![](./screenshot/bashScreenshot.png)
 
 ## Vim
-![image](http://www.giphy.com/gifs/ggoGEiZ4J3Kq1kM1aK)
+![image](https://media.giphy.com/media/ggoGEiZ4J3Kq1kM1aK/giphy.gif)
+
+plugin I used: 
+* The-NERD-tree
+* vim-surround
+
+what this vimrc will give you:
+
+* it will automatically show relative line number in normal mode
+while absolute line nubmer in insert mode
+* ruler to indicate which line you are at now
+* F2 to toggle line number
+* F5 to toggle The-NERD-tree
 
 
 ## Screen
