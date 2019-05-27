@@ -26,7 +26,7 @@ endif
 " :BundleSearch(!) foo - search (or refresh cache first) for foo
 " :BundleClean(!)      - confirm (or auto-approve) removal of unused bundles
 
-"Use Vundle manage Bundle
+"Use Vundle manage Vundle itself
 Bundle	'gmarik/vundle'
 
 "Use The Nerd Tree
@@ -56,6 +56,8 @@ set cursorline
 set ruler
 set	nu rnu	"set Hybrid line number
 
+
+" set auto command to toggle between absolute line number and relative line number while switching insert mode and normal mode
 " using absolute line number in insert mode
 " using hybrid line number in normal mode
 " how to disable it: :autocmd! numbertoggle
