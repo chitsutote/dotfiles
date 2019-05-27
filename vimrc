@@ -1,6 +1,10 @@
-"Vundle Setting
+"make it incompatible with vi
 set	nocompatible
+
+"file type detetion off
 filetype	off
+
+"Vundle Setting
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -22,7 +26,7 @@ endif
 " :BundleSearch(!) foo - search (or refresh cache first) for foo
 " :BundleClean(!)      - confirm (or auto-approve) removal of unused bundles
 
-"Use Vundle manage Vundle
+"Use Vundle manage Bundle
 Bundle	'gmarik/vundle'
 
 "Use The Nerd Tree
