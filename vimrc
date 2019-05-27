@@ -89,3 +89,19 @@ map	<c-l>	<c-w>l
 nnoremap <silent> <F5> :NERDTree<CR>
 " Map F2 -> toggle line number
 nnoremap <silent> <F2> :set nu! <bar> :set rnu!<CR>
+
+" auto complete ()
+nnoremap ( ()<Esc>i
+
+" auto complete []
+inoremap [ []<Esc>i
+
+" auto complete {}
+inoremap { {}<Esc>i
+
+" auto complete ''
+inoremap ' ''<Esc>i
+
+" auto complete \"\"
+inoremap " ""<Esc>i
+

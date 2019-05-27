@@ -26,6 +26,7 @@ what this vimrc will give you:
 * it will automatically show relative line number in normal mode
 while absolute line nubmer in insert mode
 * ruler to indicate which line you are at now
+* auto complete your (), {}, [], '', ""
 * handy function from **vim-surround** like `ys`, `cs`, `ds`
 * F2 to toggle line number
 * F5 to toggle The-NERD-tree
