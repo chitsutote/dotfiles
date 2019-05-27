@@ -7,6 +7,7 @@
 
 ## Bash
 ![](./screenshot/bashScreenshot.png)
+![image](https://media.giphy.com/media/WU5zWDZurav2UvQCN1/giphy.gif)
 
 * showing how much time passed after your last commit
 * git aliases, tig aliases
