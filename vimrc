@@ -25,14 +25,14 @@ endif
 "Use Vundle manage Vundle
 Bundle	'gmarik/vundle'
 
-"Use Powerline
+"Use The Nerd Tree
 Bundle 'The-NERD-tree'
 
-"Bundle 'Lokaltog/vim-powerline'
-"Powerline Setting
-"set nocompatible
-"set t_Co=256
-"set laststatus=2
+"Use Vim Surround
+Bundle 'tpope/vim-surround'
+
+"Use Vim repeat
+Bundle 'tpope/vim-repeat'
 
 "General Setting
 
