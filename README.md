@@ -9,7 +9,7 @@
 ![](./screenshot/bashScreenshot.png)
 
 ## Vim
-![image](https://media.giphy.com/media/ggoGEiZ4J3Kq1kM1aK/giphy.gif)
+![image](https://media.giphy.com/media/XeH8UAr5oxz9PG7pRj/giphy.gif)
 
 plugin I used: 
 * The-NERD-tree
