@@ -36,3 +36,15 @@ function git_since_last_commit {
 
 # only print current folder
 PS1="[\[\033[1;32m\]\W\[\033[0m\]] \[\033[0m\]\[\033[1;36m\]\$(git_branch)\[\033[0;33m\]\$(git_since_last_commit)\[\033[0m\]$ " 
+
+# auto read nvmrc if found
+enter_directory() {
+  if [[ $PWD == $PREV_PWD ]]; then
+    return
+  fi
+
+  PREV_PWD=$PWD
+  [[ -f ".nvmrc" ]] && nvm use
+}
+
+export PROMPT_COMMAND=enter_directory
