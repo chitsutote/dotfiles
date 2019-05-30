@@ -38,13 +38,20 @@ function git_since_last_commit {
 PS1="[\[\033[1;32m\]\W\[\033[0m\]] \[\033[0m\]\[\033[1;36m\]\$(git_branch)\[\033[0;33m\]\$(git_since_last_commit)\[\033[0m\]$ " 
 
 # auto read nvmrc if found
+# use default if not found
 enter_directory() {
   if [[ $PWD == $PREV_PWD ]]; then
     return
   fi
 
   PREV_PWD=$PWD
-  [[ -f ".nvmrc" ]] && nvm use
+	if [[ -f ".nvmrc" ]]; then
+    nvm use
+    NVM_DIRTY=true
+	elif [[ $NVM_DIRTY = true ]]; then
+    nvm use default
+    NVM_DIRTY=false
+	fi
 }
 
 export PROMPT_COMMAND=enter_directory
