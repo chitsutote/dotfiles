@@ -13,6 +13,12 @@ alias gst='git status'
 alias grp='git remote update origin -p'
 alias gph='git push origin HEAD'
 alias gck='git checkout'
+# clean all merged local branches
+# git branch --merged: show all merged branches
+# egrep -v "(^\*|master|dev)": exclude master, dev, and branch you current at
+# xargs git branch -d: delete it
+alias gclean='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
+
 
 #show git branch
 function git_branch {
