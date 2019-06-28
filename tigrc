@@ -1,0 +1,2 @@
+# press B in main view you can rebase the branch from the commit you at
+bind main B !git rebase -i %(commit)

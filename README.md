@@ -4,6 +4,7 @@
 1. [bashrc](#bash)
 2. [vimrc](#vim)
 3. [screenrc](#screen)
+4. [tigrc](#tigrc))
 
 ## Bash
 ![](./screenshot/bashScreenshot.png)
@@ -36,3 +37,6 @@ while absolute line nubmer in insert mode
 
 * swith sub-window by using `Alt + number`
 
+## Tig
+
+* press B in main view, then you can start to rebase from the commit you at
