@@ -105,3 +105,10 @@ inoremap ' ''<Esc>i
 " auto complete \"\"
 inoremap " ""<Esc>i
 
+" remap key for colemak layout
+"noremap j n
+"noremap k e
+"noremap l i
+"noremap e j
+"noremap n k
+"noremap i l
